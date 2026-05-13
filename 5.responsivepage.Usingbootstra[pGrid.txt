@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Grid and Components</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body{
+      background-color:#f2f2f2;
+    }
+
+    .card img{
+      height:250px;
+      object-fit:cover;
+    }
+
+    footer{
+      margin-top:30px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">My Website</a>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container mt-4">
+  <div class="row g-4">
+
+    <!-- Card 1 -->
+<div class="col-md-4">
+  <div class="card h-100 shadow">
+
+    <img src="https://i.pinimg.com/736x/81/a2/8f/81a28f90a9552281ac83647cae9060aa.jpg"
+         class="card-img-top"
+         alt="Chhatrapati Shivaji Maharaj">
+
+    <div class="card-body">
+      <h5 class="card-title">Chhatrapati Shivaji Maharaj</h5>
+
+      <p class="card-text">
+        Chhatrapati Shivaji Maharaj was the founder of the Maratha Empire and a brave warrior king.
+      </p>
+
+      <a href="https://en.wikipedia.org/wiki/Shivaji" class="btn btn-primary">
+        Read More
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Card 2 -->
+<div class="col-md-4">
+  <div class="card h-100 shadow">
+
+    <img src="https://i.pinimg.com/736x/58/6d/b2/586db2512c2fcd331c2a823350884d7a.jpg"
+         class="card-img-top"
+         alt="Savitribai Phule">
+
+    <div class="card-body">
+      <h5 class="card-title">Savitribai Phule</h5>
+
+      <p class="card-text">
+        Savitribai Phule was India’s first female teacher and a great social reformer.
+      </p>
+
+      <a href="https://en.wikipedia.org/wiki/Savitribai_Phule" class="btn btn-success">
+        Read More
+      </a>
+    </div>
+
+  </div>
+</div>
+
+
+
+    
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow">
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Bhagat_Singh_1929.jpg" class="card-img-top" alt="Bhagat Singh">
+
+        <div class="card-body">
+          <h5 class="card-title">Bhagat Singh</h5>
+
+          <p class="card-text">
+            Bhagat Singh was a fearless freedom fighter who sacrificed his life for India.
+          </p>
+
+          <a href="https://en.wikipedia.org/wiki/Bhagat_Singh" class="btn btn-danger">
+            Read More
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+  © 2026 My Website
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

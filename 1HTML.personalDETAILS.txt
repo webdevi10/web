@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+</head>
+
+<body>
+
+    <h1><u>Personal Details</u></h1>
+
+    <p>
+        <b>Name:</b> <i>John Doe</i>
+    </p>
+
+    <p>
+        <b>Email:</b> <em>john@example.com</em>
+    </p>
+
+    <p>
+        <b>Phone:</b> <mark>9876543210</mark>
+    </p>
+
+    <p>
+        <b>Address:</b><br>
+        123 Main Street,<br>
+        Pune, Maharashtra
+    </p>
+
+    <p>
+        <b>Education:</b> <ins>Second Year Engineering</ins>
+    </p>
+
+    <p>
+        <b>Hobbies:</b>
+    </p>
+
+    <ul>
+        <li>Reading</li>
+        <li>Coding</li>
+        <li>Playing Cricket</li>
+    </ul>
+
+    <p>
+        <b>Goal:</b> To become a successful software engineer.
+    </p>
+
+</body>
+</html>

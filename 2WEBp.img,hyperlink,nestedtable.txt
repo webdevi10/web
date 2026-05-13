@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image, Link and Nested Table</title>
+</head>
+<body>
+<h2>SVPM ALUMNI DATA</h2>
+
+<p>
+Visit
+<a href="https://engg.svpm.org.in/" target="_blank">SVPM COLLEGE OF ENGINEERING</a>
+For more information
+</p>
+
+<img src="https://engg.svpm.org.in/images/about.jpg" alt="Sample Image">
+<br><br>
+
+<table border="1" cellpadding="10">
+<tr>
+<th>Information about Admission</th>
+</tr>
+<td>
+
+<table border="1" cellpadding="5">
+<tr>
+<th>Department</th>
+<th>Vacancy</th>
+</tr>
+<tr>
+<td>Computer Engineering</td>
+<td>120</td>
+</tr>
+<tr>
+<td>Information Technology</td>
+<td>90</td>
+</tr>
+<tr>
+<td>Mechanical Engineering</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Electrical Engineering</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Artificial Intelligent</td>
+<td>120</td>
+</tr>
+</table>
+</td>
+</table>
+</body>
+</html>
